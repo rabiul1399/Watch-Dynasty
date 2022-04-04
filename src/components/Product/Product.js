@@ -33,7 +33,7 @@ const Product = () => {
                 <h3>This is Reviews: {reviews.length}</h3>
                 <div className='reviews'>
                    {
-                       reviews.map(review=><ReviewCart
+                       reviews.slice(0,3).map(review=><ReviewCart
                        review={review}
                        key={review.id}
                        handleAddToCart={handleAddToCart}

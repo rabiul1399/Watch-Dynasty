@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRadiation, faShoppingCart, faStar } from '@fortawesome/free-solid-svg-icons';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './ReviewCart.css';
 const ReviewCart = (props) => {
@@ -13,7 +13,6 @@ const ReviewCart = (props) => {
            <FontAwesomeIcon icon={faStar}></FontAwesomeIcon><span> Rating: {ratings}</span>
       
             <p>{description}</p>
-
             
         </div>
     );
