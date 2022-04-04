@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link,  useNavigate } from 'react-router-dom';
+import useReviews from '../../hooks/useReviews';
 import smartwatch from '../../image/smartwatch.jpg';
+import ReviewCart from '../ReviewCart/ReviewCart';
 import './Product.css'
 const Product = () => {
+    const [reviews,setReviews] = useReviews([]);
+
     const navigate = useNavigate();
     return (
         <div>
@@ -21,8 +25,18 @@ const Product = () => {
             </div>
             <div className='customer-reviews'>
                 <h1>Customer Reviews</h1>
+                <h3>This is Reviews: {reviews.length}</h3>
+                <div className='reviews'>
+                   {
+                       reviews.map(review=><ReviewCart
+                       review={review}
+                       key={review.id}
+                       ></ReviewCart>)
+                   }
 
-                <button onClick={() => navigate('/reviews')} className="btn">Proceed Checkout</button>
+                </div>
+
+                <button onClick={() => navigate('/reviews')} className="btn">See All Reviews</button>
 
 
             </div>

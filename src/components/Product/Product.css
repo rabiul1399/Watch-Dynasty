@@ -15,7 +15,7 @@
 }
 
 .customer-reviews{
-    
+    margin-bottom: 50px;
    
 }
 
@@ -34,5 +34,12 @@
 .btn:hover{
     background-color: yellowgreen;
     color:white;
+}
+
+
+.reviews{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
 }
 
