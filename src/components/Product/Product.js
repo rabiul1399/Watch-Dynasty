@@ -31,8 +31,8 @@ const Product = () => {
 
             </div>
             <div className='customer-reviews'>
-                <h1>Customer Reviews</h1>
-                <h3>This is Reviews: {reviews.length}</h3>
+                <h1>Customer Reviews(3)</h1>
+              
                 <div className='reviews'>
                    {
                        reviews.slice(0,3).map(review=><ReviewCart
