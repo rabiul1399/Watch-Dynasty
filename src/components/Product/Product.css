@@ -1,0 +1,29 @@
+.products-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watch img{
+    width: 450px;
+    height: 600px;
+    margin-top:50px;
+    margin-right: 20px;
+}
+
+.products-summary{
+  margin:150px;
+}
+
+.btn{
+    color: rgb(35, 104, 14);
+    background-color: #6049e2;
+    color:white;
+    width: 100px;
+    height:40px;
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: yellowgreen;
+    color:white;
+}
