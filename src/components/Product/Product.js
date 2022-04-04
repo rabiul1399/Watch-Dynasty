@@ -3,16 +3,21 @@ import { Link,  useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import smartwatch from '../../image/smartwatch.jpg';
 import ReviewCart from '../ReviewCart/ReviewCart';
+import Reviews from '../Reviews/Reviews';
 import './Product.css'
 const Product = () => {
     const [reviews,setReviews] = useReviews([]);
 
     const navigate = useNavigate();
+
+    const handleAddToCart =() =>{
+
+    }
     return (
         <div>
             <div className='products-container'>
                 <div className='products-summary'>
-                    <h1>Time Buzz</h1>
+                    <h1>Watch Dynasty</h1>
                     <p>A watch is a portable timepiece intended to be carried or worn by a person. It is designed to keep a consistent movement despite the motions caused by the person's activities.</p>
                     <button className='btn'>Live Demo</button>
 
@@ -31,14 +36,12 @@ const Product = () => {
                        reviews.map(review=><ReviewCart
                        review={review}
                        key={review.id}
+                       handleAddToCart={handleAddToCart}
                        ></ReviewCart>)
                    }
 
                 </div>
-
                 <button onClick={() => navigate('/reviews')} className="btn">See All Reviews</button>
-
-
             </div>
 
         </div>
