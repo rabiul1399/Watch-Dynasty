@@ -8,7 +8,8 @@ const Reviews = () => {
         <div className='reviews'>
            
             {
-                reviews.map(review=><ReviewCart review={review}></ReviewCart>)
+                reviews.map(review=><ReviewCart review={review} key={review.id}
+                ></ReviewCart>)
             }
         </div>
     );

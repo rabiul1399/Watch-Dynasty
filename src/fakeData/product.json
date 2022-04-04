@@ -3,42 +3,42 @@
         "id": 1,
         "name": "Jennifer Schutte",
         "description":"Pretty nice app overall. I like the way that I am able to alter my wishlist..",
-        "img":"",
+        "img":"../image/user/Ellipse.png",
         "ratings": 4.9
     },
     {
         "id": 2,
         "name": "Devon McGuire",
         "description":"Amazon in general is going to the dogs. Ordered several packages between January and now ",
-        "img":"",
+        "img":"../image/user/Ellipse-1.png",
         "ratings": 5
     },
     {
         "id": 3,
         "name": "Leah Ellipsis",
         "description":"Used to be great, but lately, I've had multiple issues with Amazon as a whole",
-        "img":"",
+        "img":"../image/user/Ellipse-2.png",
         "ratings": 4.4
     },
     {
         "id": 4,
         "name": "Adriana Castro",
         "description":"Probably the most annoying thing about the AliExpress app is searching",
-        "img":"",
+        "img":"../image/user/Ellipse-3.png",
         "ratings": 4.5
     },
     {
         "id": 5,
         "name": "Annie Belk",
-        "description":"This site started off great then it started to cause me to lose money with it's combined delivery scam which sends packages that's combined with several",
-        "img":"",
+        "description":"This site started off great then it delivery scam which sends packages that's combined with several",
+        "img":"../image/user/Ellipse-4.png",
         "ratings": 4.2
     },
     {
         "id": 6,
         "name": "SHM create",
-        "description":"I like the app, its very easy to use. There are organizers which is good. The only reason i didn't give it 5 stars is bc some items in the app is advertised wrongly.",
-        "img":"",
+        "description":"I like the app, its very easy to use. There are organizers which is good.Items in the app is advertised wrongly.",
+        "img":"../image/user/Ellipse-5.png",
         "ratings": 4.8
     }
 ]

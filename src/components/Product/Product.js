@@ -1,3 +1,5 @@
+import { faArrowAltCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link,  useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
@@ -41,7 +43,7 @@ const Product = () => {
                    }
 
                 </div>
-                <button onClick={() => navigate('/reviews')} className="btn">See All Reviews</button>
+                <button onClick={() => navigate('/reviews')} className="btn">See All Reviews <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon> </button>
             </div>
 
         </div>
