@@ -28,7 +28,7 @@ const Dashboard = () => {
                 <div>
                     <h2>Invest Vs Revenue</h2>
                     <BarChart
-                        width={450}
+                        width={500}
                         height={400}
                         data={data}
 
@@ -46,14 +46,14 @@ const Dashboard = () => {
             <div className='chart'>
                 <div>
                     <h2>Invest Vs Revenue</h2>
-                    <PieChart width={400} height={400}>
+                    <PieChart width={450} height={450}>
                         <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                         <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
                         <Tooltip></Tooltip>
                     </PieChart>
                 </div>
                 <div>
-                    <h2>Invest Vs Revenue</h2>
+                    <h2>Sell With Invest Vs Revenue</h2>
                     
                     <ComposedChart
                         width={500}
