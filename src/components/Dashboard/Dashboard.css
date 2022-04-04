@@ -1,0 +1,11 @@
+
+.chart-container{
+  display: grid;
+  justify-content: center;
+}
+.chart{
+    display: flex;
+    gap: 60px;
+  
+}
+
