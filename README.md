@@ -1,7 +1,7 @@
 
 # Watch Dynasty
 
-## Live Website Link: https://assingmment-9-watch-routing-d68428.netlify.app
+## Live Website Link: https://assignment-9-react-route-6f7463.netlify.app
 
 
 ## What is react router?
