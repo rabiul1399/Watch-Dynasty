@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Rechart from '../Rechart/Rechart';
-import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Pie, PieChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
+import { Area, Bar, BarChart, CartesianGrid, ComposedChart, Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'recharts';
 import './Dashboard.css';
 
 const Dashboard = () => {

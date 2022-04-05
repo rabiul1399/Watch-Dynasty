@@ -1,18 +1,18 @@
 import { faArrowAltCircleRight, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link,  useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useReviews from '../../hooks/useReviews';
 import smartwatch from '../../image/smartwatch.jpg';
 import ReviewCart from '../ReviewCart/ReviewCart';
 import Reviews from '../Reviews/Reviews';
 import './Product.css'
 const Product = () => {
-    const [reviews,setReviews] = useReviews([]);
+    const [reviews, setReviews] = useReviews([]);
 
     const navigate = useNavigate();
 
-    const handleAddToCart =() =>{
+    const handleAddToCart = () => {
 
     }
     return (
@@ -32,15 +32,15 @@ const Product = () => {
             </div>
             <div className='customer-reviews'>
                 <h1>Customer Reviews(3)</h1>
-              
+
                 <div className='reviews'>
-                   {
-                       reviews.slice(0,3).map(review=><ReviewCart
-                       review={review}
-                       key={review.id}
-                       handleAddToCart={handleAddToCart}
-                       ></ReviewCart>)
-                   }
+                    {
+                        reviews.slice(0, 3).map(review => <ReviewCart
+                            review={review}
+                            key={review.id}
+                            handleAddToCart={handleAddToCart}
+                        ></ReviewCart>)
+                    }
 
                 </div>
                 <button onClick={() => navigate('/reviews')} className="btn">See All Reviews <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon> </button>

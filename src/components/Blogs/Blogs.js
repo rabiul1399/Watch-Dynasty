@@ -21,21 +21,21 @@ const Blogs = () => {
                     Examples of semantic HTML tags include:
 
                     Header tags  h1 through h6
-                        blockquote tag
-                        p tag etc
+                    blockquote tag
+                    p tag etc
 
-                        </p>
-                    </div>
-                    <div>
-                        <h2>What is the inline-block element?</h2>
-                        <p>
-                        Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides. You’ll have to declare display: inline-block in your CSS code.
-                         One common use for using inline-block is for creating navigation links horizontally.
-                        </p>
-                    </div>
+                </p>
+            </div>
+            <div>
+                <h2>What is the inline-block element?</h2>
+                <p>
+                    Inline-block elements are similar to inline elements, except they can have padding and margins added on all four sides. You’ll have to declare display: inline-block in your CSS code.
+                    One common use for using inline-block is for creating navigation links horizontally.
+                </p>
+            </div>
 
-                    </div>
-                    );
+        </div>
+    );
 };
 
-                    export default Blogs;
+export default Blogs;
